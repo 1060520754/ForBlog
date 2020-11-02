@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>blog</title>
+      <title>RestTemplate跨项目访问</title>
       <link href="/posts/c0155143/"/>
       <url>/posts/c0155143/</url>
       
@@ -16,9 +16,9 @@
             
             <tag> java </tag>
             
-            <tag> SpringBoot </tag>
-            
             <tag> SpringCloud </tag>
+            
+            <tag> Eureka </tag>
             
         </tags>
       
