@@ -4,6 +4,63 @@
   
     
     <entry>
+      <title>3.Java结构</title>
+      <link href="/posts/222d4b48/"/>
+      <url>/posts/222d4b48/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h5 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h5><ol><li><p>顺序结构</p></li><li><p>选择结构</p></li><li><p>循环结构</p></li></ol><h5 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h5><h6 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h6><ol><li>代码默认是从上到下顺序执行</li><li>顺序结构是最基本的流程控制</li></ol><h6 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h6><ol><li><p>if ( 表达式 ) { 执行内容 }</p></li><li><p>if ( 表达式 ) { 执行内容 } else{ 执行内容 }</p></li><li><p>if ( 表达式 ) { 执行内容 } else if( 表达式 ) { 执行内容 }</p></li><li><p>switch( 表达式 )｛</p><p>​    case 值1：执行代码；break；</p><p>​    case 值2：执行代码；break；</p><p>​    case 值3：执行代码；break；</p><p>​    default : 执行代码</p><p>｝</p></li></ol><h6 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h6><ol><li><p>构成：</p><ol><li>初始化循环变量</li><li>循环条件</li><li>循环体</li><li>改变循环变量的值</li></ol></li><li><p>分类</p><ol><li><p>while( 循环条件 ){</p><p>循环体</p></li></ol><p>​    }</p><ol start="2"><li><p>do {</p><p>循环体</p><p>} while( 循环条件 )</p></li><li><p>for ( 初始化值；循环条件；改变初始化值)｛</p><pre><code>循环体</code></pre></li></ol><p>​        }</p></li><li><p>break 和 continue</p><ol><li>break 终止循环</li><li>continue 中止循环</li></ol></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">注意 : </span><br><span class="line"></span><br><span class="line">1. switch值 支持 byte ，short ，char ，int ，String ，枚举 类型</span><br><span class="line"></span><br><span class="line">2. while 和 do-while 的区别在于 do-while至少会执行一次</span><br><span class="line"></span><br><span class="line">3. switch语句如果不加break，可以无条件按顺序执行</span><br><span class="line"></span><br><span class="line">​    break 终止语句执行</span><br><span class="line"></span><br><span class="line">4. 当if（）后没有大括号时，仅执行一行代码</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -JavaSE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2.Java变量</title>
+      <link href="/posts/706e08c6/"/>
+      <url>/posts/706e08c6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h6 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h6><blockquote><p>储存可变数据的容器</p></blockquote><h6 id="三要素："><a href="#三要素：" class="headerlink" title="三要素："></a>三要素：</h6><ol><li>数据类型</li><li>变量名</li><li>变量值</li></ol><h6 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h6><ol><li><p>声明：数据类型 变量名；</p></li><li><p>赋值：变量名 = 变量值；</p></li><li><p>通过变量名使用</p></li></ol><blockquote><p>变量可以直接声明并赋值</p></blockquote><h6 id="命名："><a href="#命名：" class="headerlink" title="命名："></a>命名：</h6><ol><li><p>支持数字，字母，_ , $</p></li><li><p>不可以数字开头</p></li><li><p>不能使用关键字或保留字命名</p></li><li><p>严格区分大小写</p></li></ol><h6 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h6><ol><li><p>分类：</p><ol><li>基本数据类型<ol><li>整型：byte（1字节），short（2字节），long（4字节），int（8字节）</li><li>浮点型：double（4字节），float（8字节）</li><li>字符型：char（2字节）</li><li>布尔型：boolean（1字节）</li></ol></li><li>引用数据类型<ol><li>类</li><li>接口</li><li>数组</li></ol></li></ol></li><li><p>类型转换</p></li></ol><p>char ==========</p><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| =&gt; int ==&gt; long ==&gt; float ==&gt;double</p><p>byte ==&gt; short ===</p><ol><li><p>自动转换：小字节类型转换大字节类型 自动转换</p></li><li><p>强制转换：大字节类型转换小字节类型需要强制转换</p></li></ol><blockquote><p>强制转换可能会导致精度丢失 </p></blockquote><h6 id="运算符："><a href="#运算符：" class="headerlink" title="运算符："></a>运算符：</h6><ol><li><p>算数运算符</p><p>+，- ，* ，/ ,% ，++ ，–</p></li></ol><blockquote><p>++ ，– 在前先运算，在后先赋值</p></blockquote><ol start="2"><li><p>赋值运算符</p><p>= ，+= ，-= ，*= ，/= ，%=</p></li><li><p>逻辑运算符</p><p>！，&amp;&amp; ，||</p></li><li><p>比较运算符</p><p>&gt;，&lt; ，== ，!= ，&gt;= ，&lt;= </p></li><li><p>位运算符</p><p>&amp; ，| ，^</p></li></ol><blockquote><p>位运算是转换为二进制后进行计算</p></blockquote><blockquote><p>&amp;：两元素都是1 结果才为1，否则为0</p><p>| ：两元素都是0 结果才为0，否则为1</p><p>^：两元素不同时结果为1，相同则为0</p></blockquote><ol start="6"><li><p>位移运算符</p><p>&gt;&gt; ， &lt;&lt;</p></li><li><p>三元运算符</p></li></ol><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(表达式) ？ ：</span><br></pre></td></tr></table></figure><h6 id="进制："><a href="#进制：" class="headerlink" title="进制："></a>进制：</h6><ol><li><p>进制就是进位计数制</p></li><li><p>常见进制</p><ol><li>二进制</li><li>八进制</li><li>十进制</li><li>十六进制</li></ol></li><li><p>进制转换</p><ol><li>十进制转二进制：一直除以2，倒序取余得到二进制数</li><li>二进制转十进制：数字*2的位数-1次方相加</li></ol></li></ol><blockquote><p>例子：1100</p><p>0* 2的零次方 + 0 * 2的一次方 + 1 * 2的二次方 + 1 * 2的三次方</p><p>0 + 0 + 4 + 8 = 12 </p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">注意事项：</span><br><span class="line"></span><br><span class="line">1. 变量仅在声明的作用域生效</span><br><span class="line"></span><br><span class="line">2. 同一个作用域中变量不可重名</span><br><span class="line"></span><br><span class="line">3. 整数的默认类型为 int ，浮点数的默认类型为 float</span><br><span class="line"></span><br><span class="line">4. char 存储 int类型 可以转为 ascii 码值</span><br><span class="line"></span><br><span class="line">5. byte 的范围：-128~127</span><br><span class="line"></span><br><span class="line">6. byte ，short ，char 运算结果会自动转为 int</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -JavaSE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1.Java 程序入门</title>
+      <link href="/posts/2795745f/"/>
+      <url>/posts/2795745f/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h6 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h6><ol><li>Java诞生于1995年 SUN公司</li><li>Java之父：詹姆斯·高斯林</li><li>Java三大版本：<ol><li>J2SE 标准版</li><li>J2ME 微型版</li><li>J2EE 企业版 </li></ol></li></ol><h6 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h6><ol><li>开源 </li><li>简单 </li><li>安全 </li><li>跨平台 </li><li>垃圾自动回收 </li><li>面向对象 </li></ol><h6 id="JDK、JRE、JVM"><a href="#JDK、JRE、JVM" class="headerlink" title="JDK、JRE、JVM"></a>JDK、JRE、JVM</h6><ol><li>JDK (Java Development Kit java开发工具包)</li><li>JRE (Java Runtime Environment java运行工具包) </li><li>JVM (Java Virtual Machine java虚拟机) </li><li>JDK = JRE + 工具包 + 类库 </li><li>JRE = JVM + 解释器</li></ol><h6 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h6><ol><li>变量名：JAVA_HOME</li></ol><p>​     变量值：JDK文件路径</p><ol start="2"><li>变量名：Path </li></ol><p>​     变量值： JDK下的bin文件路径</p><blockquote><p>配置环境变量的意义：让系统在任意路径下都能执行被配置的程序</p></blockquote><h6 id="第一个Java程序"><a href="#第一个Java程序" class="headerlink" title="第一个Java程序"></a>第一个Java程序</h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">     <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">         System.*out*.println(<span class="string">"爱上对方过后就哭了"</span>);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>java源文件后缀名为 .java 经过编译之后 转为字节码文件，后缀名为 .class 然后可以解释运行</p><h6 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h6><ol><li><p>单行注释： //</p></li><li><p>多行注释： /* */</p></li><li><p>文档注释： /** */</p></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">注意事项：</span><br><span class="line"></span><br><span class="line">1.  单个 .java 文件中可以有多个类,但是只能有一个公共类</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -JavaSE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156/"/>
       <url>/posts/4a17b156/</url>
